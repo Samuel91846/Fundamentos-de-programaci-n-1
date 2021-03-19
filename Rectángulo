@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Rectángulo.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RZWMxoZoCMeq",
+        "outputId": "d0f94153-1682-4519-b476-b27136a285e1"
+      },
+      "source": [
+        "# Entradas\n",
+        "Base = float(input(' Registre la medida en cm la base del rectángulo... '))\n",
+        "Altura = float(input(' Registre la medida en cm la altura del rectángulo... '))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            " Registre la medida en cm la base del rectángulo... 6\n",
+            " Registre la medida en cm la altura del rectángulo... 5\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5sOY_KRiCv--"
+      },
+      "source": [
+        "# Proceso\n",
+        "Área = Base*Altura\n",
+        "Perímetro = (Base*2)+(Altura*2)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-PjhecLHCxo9",
+        "outputId": "fa878660-8468-4e73-e798-9ebab7c77126"
+      },
+      "source": [
+        "# Salida\n",
+        "print(' El área es igual a',round(Área,2))\n",
+        "print(' El perímetro es igual a',round(Perímetro,2))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            " El área es igual a 30.0\n",
+            " El perímetro es igual a 22.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
